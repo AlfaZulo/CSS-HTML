@@ -7,3 +7,11 @@
     width: 75px;
     
 }
+.sidebar-link{
+    
+    height: 76px;
+   
+}
+.sidebar-link:hover{
+    background-color: grey;
+}
