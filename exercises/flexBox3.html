@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+         
+        .row{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+           
+        }
+        .img{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 15px;
+
+        }
+        .info{
+            width: 200px;
+        }
+        .name{
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .handle{
+            color: gray;
+            margin-bottom: 3px;
+        }
+        .category{
+            color: gray;
+            font-size: 14px;
+        }
+        .btn-follow{
+            background-color: blue;
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <img class="img" src="imgs/360_F_306372291_8RtHL5R9ETkZadUdpp6PYrXSsmqRwqhv.jpg" alt="">
+        <div class="info">    
+        <p class="name">Pesho</p>
+        <p class="handle">The dog</p>
+        <p class="category">Popular</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+        
+         </div>
+    </div>
+    <div class="row">
+        <img class="img" src="imgs/pet-1-1.jpg" alt="">
+        <div class="info">    
+        <p class="name">Gosho</p>
+        <p class="handle">The dog</p>
+        <p class="category">Popular</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+        
+         </div>
+    </div>
+    <div class="row">
+        <img class="img" src="imgs/images.jpg" alt="">
+        <div class="info">    
+        <p class="name">Mitko</p>
+        <p class="handle">The dog</p>
+        <p class="category">Popular</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+        
+         </div>
+    </div>
+</body>
+</html>
