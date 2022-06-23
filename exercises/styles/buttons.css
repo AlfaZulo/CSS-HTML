@@ -63,3 +63,62 @@
 .tweet-button:hover{
     box-shadow: 5px 5px 10px rgba(0 , 0, 0, 0,60);
 }
+
+
+.uber-button{
+    background-color: black;
+    color: white;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: px;
+}
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.github-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: 600;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bootstrap-button{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    border:none;
+}
+
+.bootstrap-button2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    border-color:rgb(108, 117, 125);
+    border-width: 1px;
+    border-style: solid;
+}
